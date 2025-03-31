@@ -1,35 +1,81 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <!-- Título de la página -->
         <title>MiLocuencia</title>
+
+        <!-- Enlace al archivo de estilo CSS -->
+        <link rel="stylesheet" href="styles.css">
+
+        <!-- Fuentes desde Google Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     </head>
     <body>
-        <header>
-            <h1>MiLocuencia</h1>
-            <h2>Blog personal de MiLo Casellas</h2>
-        </header>
-        <hr />
-        <nav>
-            <p>Barra de navegación</p>
+        <!-- Sección de la cabecera -->
+        <section class="header">
+            <header>
+                <!-- Título principal del blog -->
+                <h1>MiLocuencia</h1>
+
+                <!-- Subtítulo del blog -->
+                <h2>Blog personal de MiLo Casellas</h2>
+            </header>
+        </section>
+
+        <!-- Barra de navegación con enlaces -->
+        <nav class="nav">
+            <ul>
+                <!-- Enlaces del menú de navegación -->
+                <li><a href="">Blog (entradas)</a></li>
+                <li><a href="">Evolución del blog</a></li>
+            </ul>
         </nav>
-        <hr />
-        <section>
-            <article>
-                <h2>Entrada 2</h2>
-                <p>Contenido de la entrada 2</p>
-                <p>¡Hola Mundo!</p>
-            </article>
-            <article>
-                <h2>Entrada 1</h2>
-                <p>Contenido de la entrada 1</p>
+
+        <!-- Sección principal del blog con las entradas -->
+        <section class="Blog1">
+            <article class="entry">
+                <!-- Cabecera de la entrada -->
+                <header class="entry-header">
+                    <!-- Título de la entrada, con enlace -->
+                    <h2 class="entry-title"><a href="#">Un camino que se dibuja a medida que avanzo</a></h2>
+                </header>
+                
+                <!-- Contenido de la entrada -->
+                <div class="entry-content">
+                    <!-- Primer párrafo de la entrada -->
+                    <p>No sé cómo has llegado hasta aquí ni qué esperas encontrar, pero te advierto desde ya: este no es un blog convencional. No hay un hilo conductor claro, no hay una temática cerrada, no hay un destino fijo. Solo hay un viajero —yo, MiLo— y un camino que se dibuja a medida que avanzo.</p>
+
+                    <!-- Enlace "Leer más" al final de la entrada -->
+                    <a href="#" class="read-more">Leer más »</a>
+                </div>
+
+                <!-- Pie de la entrada -->
+                <footer class="entry-footer">
+                    <div class="entry-meta">
+                        <!-- Fecha de la entrada -->
+                        <span class="entry-date">marzo de 2025</span>
+                        <!-- Enlace a los comentarios de la entrada -->
+                        <span class="comments-link"><a href="#">No hay comentarios</a></span>
+                    </div>
+                </footer>
             </article>
         </section>
-        <hr />
-        <footer>
-            <p>Opciones de seguimiento</p>
-            <hr />
-            <hr />
-            <p>CC-BY-ND 2025 - MiLo Casellas</p>
+
+        <!-- Sección aside (barra lateral) -->
+        <aside class="aside1">
+            <section id="politicas">
+                <!-- Enlace a la política de privacidad y cookies -->
+                <p class="politicas"><a href="" target="_blank">Política de privacidad y cookies</a></p>
+            </section>
+            <section id="licencia">
+                <!-- Enlace a la licencia del contenido del blog -->
+                <p class="licencia"><a href="" target="_blank">CC-BY-ND</a> 2025 - MiLo Casellas</p>
+            </section>
+        </aside> 
+
+        <!-- Pie de página -->
+        <footer class="footer">   
         </footer>
     </body>
 </html>

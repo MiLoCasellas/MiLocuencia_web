@@ -1,0 +1,36 @@
+/* Cabecera */
+.header {
+    background-color: #efefef;
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 4px solid #770000;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.1em;
+    color: #962715; /* Nuevo color para el título */
+    margin: 0;
+    line-height: 1.2;
+}
+
+.header h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2em;
+    color: #1e1e20; /* Nuevo color para la descripción */
+    margin: 0;
+    line-height: 1.4;
+}
+
+
+/* Cuerpo */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #1e1e20; /* Nuevo color para el texto del cuerpo */
+    text-align: left;
+}
+
