@@ -1,81 +1,81 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <!-- Título de la página -->
-        <title>MiLocuencia</title>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>MiLocuencia</title>
 
-        <!-- Enlace al archivo de estilo CSS -->
-        <link rel="stylesheet" href="styles.css">
+    <!-- Enlace al archivo CSS externo -->
+    <link rel="stylesheet" href="styles.css">
 
-        <!-- Fuentes desde Google Fonts -->
-        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <!-- Sección de la cabecera -->
-        <section class="header">
-            <header>
-                <!-- Título principal del blog -->
-                <h1>MiLocuencia</h1>
-
-                <!-- Subtítulo del blog -->
-                <h2>Blog personal de MiLo Casellas</h2>
-            </header>
-        </section>
-
-        <!-- Barra de navegación con enlaces -->
-        <nav class="nav">
-            <ul>
-                <!-- Enlaces del menú de navegación -->
-                <li><a href="">Blog (entradas)</a></li>
-                <li><a href="">Evolución del blog</a></li>
-            </ul>
-        </nav>
-
-        <!-- Sección principal del blog con las entradas -->
-        <section class="Blog1">
-            <article class="entry">
-                <!-- Cabecera de la entrada -->
-                <header class="entry-header">
-                    <!-- Título de la entrada, con enlace -->
-                    <h2 class="entry-title"><a href="#">Un camino que se dibuja a medida que avanzo</a></h2>
-                </header>
-                
-                <!-- Contenido de la entrada -->
-                <div class="entry-content">
-                    <!-- Primer párrafo de la entrada -->
-                    <p>No sé cómo has llegado hasta aquí ni qué esperas encontrar, pero te advierto desde ya: este no es un blog convencional. No hay un hilo conductor claro, no hay una temática cerrada, no hay un destino fijo. Solo hay un viajero —yo, MiLo— y un camino que se dibuja a medida que avanzo.</p>
-
-                    <!-- Enlace "Leer más" al final de la entrada -->
-                    <a href="#" class="read-more">Leer más »</a>
+</head>
+<body>
+    <!-- Cabecera -->
+    <section class="header">
+        <header>
+            <div class="header-content">
+                <div class="text-content">
+                    <h1>MiLocuencia</h1>
+                    <section class="description">
+                        <!-- Descripción corta del blog -->
+                        <span>Blog personal de MiLo Casellas</span>
+                    </section>
                 </div>
+                <!-- Logo de MiLocuencia -->
+                <img src="images\milocuencia_logo.png" alt="Logo de MiLocuencia" class="logo">
+            </div>
+        </header>
+    </section>
 
-                <!-- Pie de la entrada -->
-                <footer class="entry-footer">
-                    <div class="entry-meta">
-                        <!-- Fecha de la entrada -->
-                        <span class="entry-date">marzo de 2025</span>
-                        <!-- Enlace a los comentarios de la entrada -->
-                        <span class="comments-link"><a href="#">No hay comentarios</a></span>
-                    </div>
-                </footer>
-            </article>
-        </section>
+    <!-- Navegación -->
+    <nav class="nav">
+        <ul>
+            <!-- Enlaces de navegación -->
+            <li><a href="#">Blog (entradas)</a></li>
+            <li><a href="#">Evolución del blog</a></li>
+        </ul>
+    </nav>
 
-        <!-- Sección aside (barra lateral) -->
-        <aside class="aside1">
+    <!-- Entradas del blog -->
+    <section class="Blog1">
+        <article class="post">
+            <header class="post-header">
+                <h2 class="post-title"><a href="#">Un camino que se dibuja a medida que avanzo</a></h2>
+            </header>
+
+            <div class="post-body">
+                <!-- Contenido de la entrada -->
+                <p>Contenido de la entrada. ¡Hola Mundo!</p>
+                <p>No sé cómo has llegado hasta aquí ni qué esperas encontrar, pero te advierto desde ya: este no es un blog convencional. No hay un hilo conductor claro, no hay una temática cerrada, no hay un destino fijo. Solo hay un viajero —yo, MiLo— y un camino que se dibuja a medida que avanzo.</p>
+
+                <!-- Enlace para leer más -->
+                <div class="jump-link"><a href="#">Leer más »</a></div>
+            </div>
+
+            <footer class="post-footer">
+                <div class="entry-meta">
+                    <!-- Fecha de la entrada y enlace a comentarios -->
+                    <span class="entry-date">marzo de 2025</span>
+                    <span class="comments-link"><a href="#">No hay comentarios</a></span>
+                </div>
+            </footer>
+        </article>
+    </section>
+
+    <!-- Barra lateral tipo aside -->
+    <aside id="HTML1">
+        <div class="widget-content">
             <section id="politicas">
                 <!-- Enlace a la política de privacidad y cookies -->
-                <p class="politicas"><a href="" target="_blank">Política de privacidad y cookies</a></p>
+                <p><a href="https://www.blogger.com/go/blogspot-cookies" target="_blank">Política de privacidad y cookies</a></p>
             </section>
             <section id="licencia">
-                <!-- Enlace a la licencia del contenido del blog -->
-                <p class="licencia"><a href="" target="_blank">CC-BY-ND</a> 2025 - MiLo Casellas</p>
+                <!-- Enlace a la licencia Creative Commons con el logo -->
+                <p><a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.es" target="_blank"><img src="images\cc-by-nc-nd.png" id="cclicencia" alt="Licencia Creative Commons CC-BY-NC-ND"></a></p>
             </section>
-        </aside> 
+        </div>
+    </aside>
 
-        <!-- Pie de página -->
-        <footer class="footer">   
-        </footer>
-    </body>
+    <!-- Pie de página (si lo necesitas más adelante) -->
+    <footer class="footer"></footer>
+</body>
 </html>
