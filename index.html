@@ -6,7 +6,6 @@
 
     <!-- Enlace al archivo CSS externo -->
     <link rel="stylesheet" href="styles.css">
-
 </head>
 <body>
     <!-- Cabecera -->
@@ -21,17 +20,17 @@
                     </section>
                 </div>
                 <!-- Logo de MiLocuencia -->
-                <img src="images\milocuencia_logo.png" alt="Logo de MiLocuencia" class="logo">
+                <img src="images\milocuencia_logo-header.png" alt="Logo de MiLocuencia" class="logo" aria-label="Logo de MiLocuencia">
             </div>
         </header>
     </section>
 
     <!-- Navegación -->
-    <nav class="nav">
+    <nav class="nav" aria-label="Navegación principal">
         <ul>
             <!-- Enlaces de navegación -->
-            <li><a href="#">Blog (entradas)</a></li>
-            <li><a href="#">Evolución del blog</a></li>
+            <li><a href="#" aria-label="Ir a las entradas del blog">Blog (entradas)</a></li>
+            <li><a href="#" aria-label="Ver la evolución del blog">Evolución del blog</a></li>
         </ul>
     </nav>
 
@@ -39,7 +38,7 @@
     <section class="Blog1">
         <article class="post">
             <header class="post-header">
-                <h2 class="post-title"><a href="#">Un camino que se dibuja a medida que avanzo</a></h2>
+                <h2 class="post-title"><a href="#" aria-label="Leer la entrada sobre un camino que se dibuja a medida que avanzo">Un camino que se dibuja a medida que avanzo</a></h2>
             </header>
 
             <div class="post-body">
@@ -48,29 +47,29 @@
                 <p>No sé cómo has llegado hasta aquí ni qué esperas encontrar, pero te advierto desde ya: este no es un blog convencional. No hay un hilo conductor claro, no hay una temática cerrada, no hay un destino fijo. Solo hay un viajero —yo, MiLo— y un camino que se dibuja a medida que avanzo.</p>
 
                 <!-- Enlace para leer más -->
-                <div class="jump-link"><a href="#">Leer más »</a></div>
+                <div class="jump-link"><a href="#" aria-label="Leer más sobre el camino que se dibuja a medida que avanzo">Leer más »</a></div>
             </div>
 
             <footer class="post-footer">
                 <div class="entry-meta">
                     <!-- Fecha de la entrada y enlace a comentarios -->
                     <span class="entry-date">marzo de 2025</span>
-                    <span class="comments-link"><a href="#">No hay comentarios</a></span>
+                    <span class="comments-link"><a href="#" aria-label="Ver comentarios de esta entrada">No hay comentarios</a></span>
                 </div>
             </footer>
         </article>
     </section>
 
     <!-- Barra lateral tipo aside -->
-    <aside id="HTML1">
+    <aside id="HTML1" aria-label="Barra lateral">
         <div class="widget-content">
             <section id="politicas">
                 <!-- Enlace a la política de privacidad y cookies -->
-                <p><a href="https://www.blogger.com/go/blogspot-cookies" target="_blank">Política de privacidad y cookies</a></p>
+                <p><a href="https://www.blogger.com/go/blogspot-cookies" target="_blank" aria-label="Leer la política de privacidad y cookies">Política de privacidad y cookies</a></p>
             </section>
             <section id="licencia">
                 <!-- Enlace a la licencia Creative Commons con el logo -->
-                <p><a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.es" target="_blank"><img src="images\cc-by-nc-nd.png" id="cclicencia" alt="Licencia Creative Commons CC-BY-NC-ND"></a></p>
+                <p><a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.es" target="_blank" aria-label="Ver licencia Creative Commons"><img src="images\cc_by-nc-nd.png" id="cclicencia" alt="Licencia Creative Commons CC-BY-NC-ND" aria-label="Licencia Creative Commons CC-BY-NC-ND"></a></p>
             </section>
         </div>
     </aside>

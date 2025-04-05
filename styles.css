@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 /* Carga de fuentes desde Google Fonts: Montserrat, Raleway, Roboto Mono y Roboto */
 
+
 /* General */
 * {
     box-sizing: border-box; /* Aplicado globalmente para que el padding y border no afecten al tamaño total de los elementos */
