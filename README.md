@@ -5,6 +5,10 @@ Utilizo estructuras y nombres de clases e ids según los utiliza Blogger, ,para 
 
 Esta es mi plantilla de Blogger, creada "desde cero". Entrecomillo desde cero porque si bien eliminé todo el código de la plantilla y empecé con lo más mínimo permitido, Blogger añade automáticmante código para el funcionamiento del blog.
 
+Después de trabajar y tener probado el código de este respositorio, lo pruebo en Blogger y cuando allí funciona bien, descargo el backup de la plantilla, el cual añado a mi otro repositorio:
+
+https://github.com/MiLoCasellas/blogger-mlc
+
 En el propio blog he creado una página estática donde voy publicando capturas de pantalla de la evolución del blog:
 
 https://milocuencia.blogspot.com/p/evolucion-del-blog.html
